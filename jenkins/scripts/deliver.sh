@@ -20,6 +20,7 @@ echo 'the file ".pidfile".'
 set -x
 npm start &
 sleep 1m
+
 echo $! > .pidfile
 set +x
 
